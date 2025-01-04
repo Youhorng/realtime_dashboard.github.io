@@ -15,6 +15,7 @@ df = pd.read_csv("ndvi_ndwi_data_cleaned.csv")
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server - app.server
 
 # Defining the latitude and longitude
 latitude = 13.58111
